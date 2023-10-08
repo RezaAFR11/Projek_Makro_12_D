@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.sisi{
+    width: 50%;
+    height: 100vh;
+    order: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Bagian Kanan */
+#kanan{
+    background-color: #2B4AEA;
+    min-height: 100vh;
+    min-width: 300px;
+    max-width: 50%;
+    overflow: hidden;
+}
+.kotakborder{
+    order: 2px solid red;
+    width: 650px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.gambar{
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 15px 12px 10px rgb(7, 30, 142);
+}
+#onya{
+    margin-top: 246px;
+    margin-left: 25px;
+}
+#dudu{
+    margin-bottom: 246px;
+    margin-left: -70px;
+}
+#mei{
+    margin-top: -500px;
+    margin-left: 380px;
+}
+
+
+
+/* Bagian Kiri */
+#kiri{
+    background-color: rgb(250, 250, 250);
+    min-height: 100vh;
+    min-width: 300px;
+    max-width: 50%;
+    overflow: hidden;
+}
+.login{
+    order: 2px solid red;
+}
+#craft{
+    font-weight: bold;
+}
+.login h1{
+    color: #0025E6;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.login p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.445) ;
+}
+.input-group{
+    position: relative;
+    margin-top: 20px 0;
+    margin-bottom: 20px;
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .4s;
+}
+.input-group input{
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-group input:focus~label, 
+.input-group input:valid~label {
+    top: 0px;
+    font-size: 12px;
+    background-color:rgb(250, 250, 250) ;
+}
+.lupa{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.445);
+}
+.lupa:hover{
+    text-decoration: underline;
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button {
+    width: 400px;
+    height: 50px;
+    margin: 8px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #ffffff; 
+    background-color: transparent;
+    font-size: 15px;
+}
+#Masuk{
+    background-color: #2B4AEA;
+}
+#google{
+    color: #000;
+    background-color: #DFE2E6;
+    background-image: url(styleassets/icongoogle.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 90px;
+}
+#Masuk:hover {
+    background-color: #2136a1;
+    cursor: pointer;
+}
+#google:hover{
+    background-color: #b9bcc1; 
+    cursor: pointer;
+}
+#akun{
+    color: #000;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bold-text {
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+@media (max-width: 800px) {
+    #kanan {
+        display: none;
+    }
+    #kiri {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+
+
+

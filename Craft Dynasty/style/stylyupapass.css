@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+.judul{
+    font-size: 2em;
+    padding-top: 5px;
+    padding-left: 35px;
+    font-weight: bolder;
+}
+.judul a{
+    text-decoration: none;
+    color: #0025E6;
+}
+.container{
+    background-color: rgb(51, 61, 129);
+    height: 736px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxlupa {
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 1px 5px lightslategray;
+    border-radius: 5px ;
+    width: 40%;
+    margin-bottom: 200px;
+}
+
+.temukan{
+    padding: 10px;
+    padding-left: 15px;
+}
+.temukan p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.masuk{
+    padding: 10px 15px
+}
+.masuk p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.masuk input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.masuk input::placeholder{
+    font-size: 13px;
+}
+
+.tombol{
+    padding: 2%;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tombol button{
+    width: 20%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#cari {
+    background-color: #2B4AEA;
+    color: white;
+    cursor: pointer;
+}    
+#cari:hover{
+    background-color: #2136a1;
+}
+#batal{
+    margin-right: 10px;
+    background-color: rgb(236, 235, 235);
+}
+#batal:hover{
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+#batal a{
+    text-decoration: none;
+    color: black;
+}
